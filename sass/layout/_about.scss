@@ -1,0 +1,36 @@
+.about {
+    padding-bottom: 0px;
+}
+
+.about__list {
+    display: flex;
+}
+
+.about__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.about__paragraph {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: calc(24 / 14);
+    color: var(--text-color);
+    margin-top: 10px;
+}
+
+.about__headline {
+    padding: 0;
+    font-size: 14px;
+    line-height: calc(16 / 14);
+    text-transform: uppercase;
+}
+.about-cards {
+    width: 270px;
+    height: 120px;
+    background: var(--team-background);
+    border-radius: 4px;
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
